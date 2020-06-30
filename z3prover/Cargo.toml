@@ -1,0 +1,16 @@
+[package]
+name = "z3prover"
+version = "0.1.0"
+authors = ["Hirokazu MINAMI <hrkzmnm@gmail.com>"]
+edition = "2018"
+license = "MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.z3-sys]
+version = "0.6.1"
+
+[lib]
+doctest = false
+

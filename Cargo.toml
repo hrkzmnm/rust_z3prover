@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "z3prover",
+    "make_ast",
+    "example",
+]
+ 
